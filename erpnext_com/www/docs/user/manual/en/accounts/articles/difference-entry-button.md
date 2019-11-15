@@ -1,17 +1,17 @@
 <!-- add-breadcrumbs -->
 #Difference Entry
 
-As per accounting standards, debit in a accounting entry must be equal to credit. If not, system does allow submission of accounting transaction, thereby stops ledger posting. In ERPNext, on saving accounting entry, system validates if debit and credit is tallying.
+As per accounting standards, the debit in a accounting entry must be equal to the credit. If not, the system does allow submission of accounting transaction, thereby stopping the ledger from posting. In ERPNext, on saving an accounting entry, the system validates if the debit and credit is tallying.
 
 <img alt="Debit Credit Not Equal" class="screenshot" src="{{docs_base_url}}/assets/img/articles/difference-entry-1.png">
 
-To have entry balanced, you should one more row, select another account, and update different amount in it. Or you can add difference amount in one of the Account's row itself.
+To have your entry balanced, you should add one more row, select another account, and update the difference amount in it. Or you can add the difference amount in one of the Account's row itself.
 
-On clicking 'Make Difference Entry' button, new Row will be added under Journal Entry Accounts table, with difference amount. You can edit that row to select appropriate Account.
+On clicking the 'Make Difference Entry' button, a new Row will be added under the Journal Entry Accounts table, with the difference amount. You can edit that row to select an appropriate Account.
 
 <img alt="Debit Credit Not Equal" class="screenshot" src="{{docs_base_url}}/assets/img/articles/difference-entry-2.gif">
 
-On selecting account under new row, debit and credit an entry will be tallying, and you should be able to submit Journal Entri correctly.
+On selecting an account under new row, the debit and credit entries will be tallying, and you should be able to submit the Journal Entry correctly.
 
 <!-- markdown -->
 
